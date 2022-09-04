@@ -1,0 +1,374 @@
+
+/* ============ Welcome To Life Coach Site.This site is design by Bangladeshi web designer
+Alen Shuvo.Please stay tune with us.  Thank You.happy devoloping ================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rufina', serif;
+}
+body{
+    max-width: 100%;
+}
+#hero{
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(/Image/Feature-Photo/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+.logo{
+    width: 20%;
+    padding: 50px;
+}
+.container ul{
+    display: flex;
+    width: 70%;
+    position: absolute;
+    top: 8%;
+    left: 30%;
+}
+.container ul li{
+    list-style: none;
+}
+.container ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.call-btn{
+    position: absolute;
+    top: 8%;
+    left: 83%;
+    padding: 8px 30px;
+    font-size: 17px;
+    border: 2px solid orange;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.call-btn:hover{
+    background: white;
+    color: turquoise;
+    border: none;
+}
+.hero-txt{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    width: 50%;
+    color: white;
+}
+.hero-txt .hero-sub-txt{
+    color: turquoise;
+    margin-bottom: 40px;
+}
+.hero-txt .hero-header-txt{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.hero-txt .hero-para{
+    text-align: justify;
+    margin-bottom: 30px;
+    width: 70%;
+}
+.hero-txt .hero-btn{
+    padding: 8px 30px;
+    font-size: 17px;
+    border: 2px solid orange;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-txt .hero-btn:hover{
+    background: white;
+    color: turquoise;
+    border: none;
+}
+
+
+/* ==================================================================================== */
+#section-02{
+    width: 100%;
+    height: 100vh;
+    background: rgb(234, 238, 239);
+}
+.sec-02-head-txt{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.sec-02-para{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: dimgray;
+}
+.sec-02-card{
+    width: 23%;
+    /* border: 2px solid greenyellow; */
+    text-align: center;
+    margin-top: 10%;
+    float: left;
+    margin-left: 20px;
+}
+.sec-02-card .card-icon{
+    color: green;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.sec-02-card .card-head-txt{
+    margin-bottom: 20px;
+}
+.sec-02-card .card-para{
+    text-align: center;
+}
+/* ======================================================================================= */
+#section-03{
+    width: 100%;
+    height: 80vh;
+    background: rgb(226, 237, 241);
+}
+#section-03 .container{
+    position: absolute;
+    margin-top: 10%;
+}
+.section-03-head-txt{
+    width: 30%;
+    margin: auto;
+    font-size: 30px;
+}
+.section-03-para{
+    width: 50%;
+    margin-top: 40px;
+}
+/* ============================================================================== */
+#about-me{
+    width: 100%;
+    height: 40vh;
+}
+#about-me .container{
+    position: absolute;
+    margin-top: 10%;
+}
+.about-me-head-txt{
+    width: 40%;
+    padding-left: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: green;
+}
+.about-me-para{
+    width: 60%;
+    float: right;
+}
+/* ============================================================== */
+#signature{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+.container{
+    margin-left: 30px;
+}
+.container-image{
+    width: 45%;
+}
+.container-image img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.container-para{
+    width: 48%;
+}
+.container-para .para-01{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    line-height: 25px;
+    text-align: justify;
+}
+.container-para .para-02{
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.container-btn{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: green;
+    font-weight: bold;
+}
+.container-btn:hover{
+    color: black;
+}
+.container-btn-icon{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.container-para .para-03{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: green;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: justify;
+}
+/* ======================================================================= */
+#contact-email{
+    width: 100%;
+    height: 60vh;
+}
+.form{
+    width: 1100px;
+    height: 250px;
+    background: #1dd1a1;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+.form-content .form-header{
+    padding: 80px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.form-content .input-sec{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+.input-sec .form-email{
+    width: 90%;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.input-sec .form-email::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.form-sub-btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 6px 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.form-sub-btn:hover{
+    background: #ffffff;
+    color: green;
+    font-size: bold;
+}
+/* ================================================================================== */
+#testimonials{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+.container{
+    padding: 20px;
+}
+.test-content h5{
+    position: absolute;
+    left: 45%;
+    color: #1dd1a1;
+}
+.test-content h2{
+    position: absolute;
+    left: 30%;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.card{
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 70px;
+    float: left;
+}
+.card img{
+    border-radius: 50px;
+    float: left;
+}
+.card-icon{
+    color: blue;
+    font-size: 30px;
+}
+.card-para{
+    margin-bottom: 10px;
+    color: dimgray;
+    text-align: justify;
+}
+.card .name{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 59px;
+    letter-spacing: 1px;
+}
+/* =================================================================================== */
+#footer{
+    width: 100%;
+    height: 60vh;
+    background: #0abde3;
+}
+.card-02{
+    width: 22%;
+    margin-top: 55px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    line-height: 30px;
+}
+.card-02 img{
+    margin-bottom: 30px;
+}
+.card-02-head-txt{
+    margin-bottom: 30px;
+}
+.card-02 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.card-02 a:hover{
+    color: black;
+}
+
+.container-02{
+    position: absolute;
+    margin-top: 22%;
+}
+.content-01{
+    color: white;
+    font-weight: bold;
+}
+.footer-02{
+    width: 100%;
+    height: 10vh;
+}
+.footer-02 p{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+
